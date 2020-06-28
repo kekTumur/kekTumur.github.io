@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Simon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
+  <link rel="stylesheet" href="css/style.min.css">
+</head>
+
+<body>
+  <body>
+    <h1>WELCOME TO POPYG GAME</h1>
+    <div class="container">
+        <div class="wrapper">
+            <div id="red" class="button red"></div>
+            <div id="green" class="button green"></div>
+            <div id="blue" class="button blue"></div>
+            <div id="yellow" class="button yellow"></div>
+        </div>
+    </div>
+    <div class="modal" data-modal-start>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        Добро пожаловать!
+                    </div>
+                </div>
+                <div class="modal-body">
+                    Спасибо, что нашли время поиграть в мою новую игру.
+                    Мое творение является преемником одной из самых популярных электронных игрушек конца 1970-х и начала 1980-х годов, направленная на развитие и тренировку памяти и скорости реакции.
+                </div>
+                <div class="modal-footer">
+                    <button class="btn-continue btn btn-success">Продолжить</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal" data-modal-end>
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-title">
+                        Правила игры
+                    </div>
+                </div>
+                <div class="modal-body">
+                    После того, как вы нажмете кнопку <span>Начать игру</span> на одной из четырех кнопок сработает вспышка и соответсвующий ей звук. Вы должны на нее нажать. После сработает еще одна рандомная вспышка со звуком. Но сейчас вы должны нажать на предыдущую кнопку и на ту, что загорелась только что и так далее.
+                    Задача игры — запомнить продемонстрированную последовательность вспышек и звуков.
+                </div>
+                <div class="modal-footer">
+                    <button data-close class="btn btn-success">Начать игру</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+    <script src="main.js"></script>
+</html>
